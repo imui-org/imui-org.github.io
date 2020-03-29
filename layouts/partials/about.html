@@ -1,0 +1,10 @@
+{{ "<!-- About section -->" | safeHTML }}
+<section>
+    {{ with .Site.Params.about.title }}<h3 id="about-me">{{ . }}</h3>{{ end }}
+
+    {{ with .Site.Params.about.bio }}
+    <div class="blurb">
+        <p>{{ . | markdownify }}</p>
+    </div>
+    {{ end }}
+</section>

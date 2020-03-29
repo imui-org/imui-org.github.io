@@ -1,0 +1,18 @@
+# Section title
+title = "Projekte"
+
+[[projects]]
+    name = "SnoeSky"
+    folder = "snoesky"
+
+[[projects]]
+    name = "SonicDive"
+    folder = "sonicdive"
+
+[[projects]]
+    name = "LoopBlox"
+    folder = "loopblox"
+
+[[projects]]
+    name = "AmbientGalaxy"
+    folder = "ambientgalaxy"
