@@ -5,6 +5,17 @@
   height: 100%;
 }
 
+#paypal-donate {
+    width: 20%;
+}
+#paypal-donate input {
+    border: none;
+}
+
+section h3 {
+    font-size: 3em;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -668,7 +679,9 @@ header {
     header h1 {
       padding-top: 0px; } }
 footer {
-  background-image: url(../img/logo.svg), url(../img/hero-bg.jpg); }
+  background-image: none;
+  text-align: center;
+}
   footer .lockup {
     padding: 50px 30px; }
     footer .lockup:after {
@@ -676,8 +689,8 @@ footer {
       display: table;
       clear: both; }
     footer .lockup .content-wrap {
-      float: left;
-      margin-left: 80px; }
+      margin-right: auto;
+      margin-left: auto; }
       footer .lockup .content-wrap .copyright {
         margin: 0;
         text-transform: uppercase;
@@ -966,7 +979,6 @@ footer {
   .work-container h4, .work-container noscript h4 {
     color: #e2b505;
     font-weight: 300;
-    text-transform: uppercase;
     font-size: 28px;
     line-height: 1.2;
     margin: 0 0 20px; }

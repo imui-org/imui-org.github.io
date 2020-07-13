@@ -1,9 +1,9 @@
-{{ "<!-- Clients section -->" | safeHTML }}
+{{ "<!-- Donators section -->" | safeHTML }}
 <section class="section-clients">
-    {{ with .Site.Data.clients.title }}<h3 id="clients">{{ . }}</h3>{{ end }}
+    {{ with .Site.Data.donators.title }}<h3 id="donators">{{ . }}</h3>{{ end }}
 
     <div class="clients-mobile-nav">
-    {{ range $i, $e := .Site.Data.clients.list }}
+    {{ range $i, $e := .Site.Data.donators.list }}
 	    {{ if eq $i 0 }}
 	    <span class="active-client"></span>
 	    {{ else }}
@@ -13,7 +13,7 @@
     </div>
 
     <div class="clients-belt">
-    {{ range $i, $e := .Site.Data.clients.list }}
+    {{ range $i, $e := .Site.Data.donators.list }}
     <div class="client-unit {{ if eq $i 0 }}active-client{{ end }}">   <!-- CONDITIONAL CSS CLASS -->
         <div class="client-content">
             {{ .quote | markdownify }}
@@ -28,12 +28,8 @@
     </div>
 
     <div class="clients-logos">
-    {{ range $i, $e := .Site.Data.clients.list }}
-      	{{ if eq $i 0 }}
-       	<img class="client-logo active-client" src="img/clients/{{ .logo }}" align="{{ .logo }}">
-		{{ else }}
-    	<img class="client-logo" src="img/clients/{{ .logo }}" align="{{ .logo }}">
-       	{{ end }}
+    {{ range $i, $e := .Site.Data.donators.list }}
+    	<img class="client-logo" src="img/donators/{{ .logo }}" align="{{ .logo }}">
     {{ end }}
     </div>
 

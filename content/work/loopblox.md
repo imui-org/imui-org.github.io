@@ -1,1 +1,0 @@
-![Crispy Icons](img/work/loopblox/logo.jpg)

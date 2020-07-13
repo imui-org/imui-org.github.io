@@ -1,7 +1,13 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://imui.org/"
 languageCode = "de"
-title = "imui e.V."
+DefaultContentLanguage = "de"
+
+[languages]
+    [languages.de]
+        title = "imui e.V."
+    [languages.en]
+        title = "imui org"
 
 [params]
 	name = "Your name"
@@ -16,6 +22,11 @@ title = "imui e.V."
 		title = "Über uns"
 		bio = "Klänge erleben und auslösen - Teilhabe an und durch Musik für jeden, auch für Menschen die sonst nur eingeschränkt oder erschwert diese Möglichkeit haben - das ist die Vision von imui e.V. Dafür entwickeln wir barrierefreie, digitale Musikinstrumente."
 
+    [params.donation]
+        title = "Spenden"
+
+    [params.donators]
+        title = "Partner/Förderer"
 	# Contact secion
 	[params.contact]
 		title = "Kontakt"
@@ -25,16 +36,16 @@ title = "imui e.V."
 		# 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 		[[params.contact.social]]
 			icon = "github"
-			link = "//github.com/imui-e-V"
+			link = "//github.com/imui-org"
 
 	[params.form]
-		title = "Let's work together"
+		title = "Kontaktformular"
 		# Form fields
 		name = "Name"
 		email = "Email-Addresse"
-		message = "Tell me about your project"
-		buttonText = "Send"
+		message = "Nachricht"
+		buttonText = "Senden"
 
 
 	[params.footer]
-		copyright = "Published under the Unlicense License."
+		copyright = "Copyright (C) 2020 imui e.V."

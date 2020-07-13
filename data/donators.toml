@@ -1,0 +1,14 @@
+# Section title
+title = "Partner und Förderer"
+
+[[list]]
+    name = "Thomann"
+    logo = "thomann.jpg"
+
+[[list]]
+    name   = "Ueberschall"
+    logo   = "ueberschall.jpg"
+
+[[list]]
+    name = "Sparkasse Köln-Bonn"
+    logo = "sparkassekoelnbonn.jpg"

@@ -1,0 +1,18 @@
+{{ "<!-- Donation section -->" | safeHTML }}
+<section>
+    {{ with .Site.Params.donation.title }}<h3 id="donation">{{ . }}</h3>{{ end }}
+
+    <div class="blurb">
+        <p>
+            Wenn Sie unsere Arbeit unterstützen möchten, können Sie dies entweder direkt durch eine Überweisung auf unser untenstehendes Spendenkonto oder indem Sie unseren Paypal Spendenbutton nutzen.
+            Wenn Sie eine Spendenbescheinigung benötigen, an einer Fördermitgliedschaft interessiert sind oder sich aktiv engagieren wollen, <a href="#contact">kontaktieren</a> Sie uns am besten direkt.
+            Auch über Ihren Einkauf bei <a href="https://smile.amazon.de/ch/219-588-33244">Amazon Smile</a> können Sie unsere Organisation unterstützen.
+            <br>Spendenkonto: DE41830654080004221427
+        </p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" id="paypal-donate">
+            <input type="hidden" name="cmd" value="_s-xclick"/>
+            <input type="hidden" name="hosted_button_id" value="X2LYWK2UAURZW"/>
+            <input type="image" src="https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_SM.gif" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Spenden mit dem PayPal-Button"/>
+        </form>
+    </div>
+</section>
