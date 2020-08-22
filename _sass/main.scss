@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+// Customization
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+$family-sans-serif: "Open Sans", sans-serif;
+
+#title {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  border: white solid 5px;
+}
+
+@import "../node_modules/bulma/bulma";
+
+.navbar-start {
+  flex-grow: 1;
+  justify-content: center;
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#cookie-banner {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 1.25rem 2.5rem 0.25rem 1.5rem;
+  animation: slide-up 2s ease;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
