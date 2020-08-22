@@ -1,9 +1,5 @@
 # imui Website
 
-## Style guide
+The official imui website.
 
-* Main color: #080e1a
-
-## Theme
-
-https://github.com/digitalcraftsman/hugo-artists-theme
+Copyright (C) 2020 imui e.V.
